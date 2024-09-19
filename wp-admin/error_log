@@ -1,0 +1,6 @@
+[21-Jun-2023 19:43:52 UTC] PHP Warning:  Attempt to read property "title" on null in /home1/contagili/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Jun-2023 19:44:25 UTC] PHP Warning:  Attempt to read property "title" on null in /home1/contagili/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Jun-2023 19:49:06 UTC] PHP Warning:  Attempt to read property "title" on null in /home1/contagili/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Jun-2023 19:49:33 UTC] PHP Warning:  Attempt to read property "title" on null in /home1/contagili/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[21-Jun-2023 19:51:16 UTC] PHP Warning:  Attempt to read property "title" on null in /home1/contagili/public_html/wp-includes/class-wp-customize-widgets.php on line 905
+[28-Jul-2023 20:21:12 UTC] TFA: Beginning attempt to port private key encryption over to openssl

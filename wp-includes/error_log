@@ -1,0 +1,17 @@
+[19-Oct-2023 15:41:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/contagili/public_html/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/contagili/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[19-Oct-2023 15:42:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/contagili/public_html/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/contagili/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[21-May-2024 12:42:23 America/Fortaleza] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/contagili/public_html/wp-includes/class-IXR.php on line 42
+[21-May-2024 12:42:23 America/Fortaleza] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/contagili/public_html/wp-includes/class-IXR.php on line 42
+[21-May-2024 12:42:23 America/Fortaleza] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home1/contagili/public_html/wp-includes/class-IXR.php on line 42
+[21-May-2024 12:42:23 America/Fortaleza] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/contagili/public_html/wp-includes/class-IXR.php on line 42
+[08-Sep-2024 16:27:00 America/Fortaleza] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/contagili/public_html/wp-includes/functions.php on line 8
+[08-Sep-2024 16:27:00 America/Fortaleza] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/contagili/public_html/wp-includes/functions.php on line 8
+[08-Sep-2024 16:27:00 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/contagili/public_html/wp-includes/functions.php on line 8
+[08-Sep-2024 16:27:00 America/Fortaleza] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/contagili/public_html/wp-includes/functions.php on line 8
+[08-Sep-2024 16:27:00 America/Fortaleza] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/contagili/public_html/wp-includes/functions.php on line 8
