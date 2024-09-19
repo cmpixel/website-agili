@@ -1,0 +1,193 @@
+/* >>>>> Indice CSS | Everest Design <<<<< */
+
+/*
+1....... Root elements
+    1.1.... Basic ELements
+
+2....... Header
+    2.1.... Navbar
+    2.2.... Top Bar
+    2.3.... Offcanvas Menu
+
+3....... Content Sections
+    3.1.... Section Hero
+    3.2.... Section Sobre
+    3.3.... Formatos Formatos
+
+4....... Blog
+    4.1.... Blog Cards
+
+5....... Footer
+    5.1.... Bottom Bar
+
+
+
+
+*/
+
+
+/* 1....... Root elements */
+body {
+    font-size: 18px;
+    font-family: inter;
+    font-weight:400;
+}
+::selection {
+    background: #c48462;
+    color: #fff;
+    text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: inter;
+    font-weight: 700;
+}
+h1, h2 {
+    font-size: 3.5rem;
+}
+.uk-link-heading a:hover {
+    color: goldenrod !important;
+}
+.uk-navbar-nav a:hover {
+    color: goldenrod !important;
+}
+/* colors */
+.uk-text-warning {
+    color: #c48462 !important;
+}
+.uk-section-secondary {
+    background-color: #033349;
+}
+.uk-background-blend-overlay {
+    background-color: #02171E;
+    background-blend-mode: overlay;
+}
+/* buttons */
+.uk-button-danger {
+    background-color: #c48462;
+    color: #fff !important;
+    border: 1px solid transparent;
+}
+.uk-button-danger:hover {
+    background-color: goldenrod;
+    color: #fff;
+    border: 1px solid gold;
+    transition: .3s;
+}
+.uk-button-text {
+    color: #c48462 !important;
+}
+.uk-button-text:hover {
+    color: goldenrod;
+}
+
+/* navbar */
+nav.uk-navbar-container.uk-navbar-sticky, .uk-position-top {
+    padding: 0.5rem 0;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #033349;
+}
+.uk-navbar-nav>li.uk-active>a {
+    color: azure;
+}
+/* offcanvas */
+.uk-offcanvas-bar {
+    background-color: #033349;
+}
+
+/* blog */
+/* slider nav */
+.uk-dotnav>*>* {
+    width: 37px;
+    height: 4px;
+    border-radius: 0;
+}
+/* uk card blog */
+.uk-slider-items .uk-text-muted {
+    color: #999!important;
+}
+.uk-card-secondary {
+    background-color: #c48462;
+}
+.uk-card-body a, .uk-article p > a {
+    color: #c48462;
+}
+.uk-card-body a:hover {
+    color: goldenrod;
+}
+.service_title a {
+    color: #666666;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.uk-accordion-content a {
+    font-size: 1rem;
+}
+
+
+/* footer */
+/* scroll to top */
+.ever_whats {
+    position: fixed;
+    right: 0px;
+    bottom: 150px;
+    z-index: 99;
+}
+/* whatsapp icon */
+.whatsapp_icon svg {
+    width: 50px;
+    position: fixed;
+    bottom: 180px;
+    right: 35px;
+    z-index: 99;
+}
+.whatsapp_fill {
+    fill:#00C90F;
+}
+.ever_top  {
+    position: fixed;
+    right: 0px;
+    bottom: 90px;
+    display: none;
+    z-index: 99;
+}
+#myBtn {
+  display: none;
+}
+.float_buttom {
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    position: relative;
+    right: -34px;
+    top: -6px;
+    border-radius: 5rem;
+    z-index: -1;
+}
+.float_buttom_top {
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    position: relative;
+    right: -34px;
+    top: 13px;
+    border-radius: 5rem;
+    z-index: -1;
+}
+
+
+/*
+one from one:
+add background transition when you back to top and the navbar change back to transperenty */
+.uk-navbar-container{
+    transition: background-color .5s ease;
+  }
+
+  /* hero gradient overlay (Must be seperate beacuce the BG moves with parallax) */
+  #overlay{
+    background: linear-gradient(to right, rgba(30, 75, 115, 0.9), rgba(0, 0, 0, .5));
+  }
+
+  /*
+  background: linear-gradient(to right, rgba(30, 75, 115, 0.9), rgba(255, 255, 255, 0)), url('https://picsum.photos/1900/508');
+  *-/
